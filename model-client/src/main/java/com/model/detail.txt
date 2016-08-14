@@ -1,0 +1,4 @@
+model-client是thrift的客户端.作为客户端.是提供给外界使用的
+不能直接使用thrift生成的Request和Response
+原因是为了解耦,并且当thrift接口变化时,也不会让上层服务挂掉
+所以这个地方需要VO的存在
